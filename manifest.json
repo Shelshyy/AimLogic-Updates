@@ -1,0 +1,12 @@
+{
+  "product": "AIM LOGIC",
+  "latest_version": "1.0.0",
+  "required": true,
+  "grace_hours": 24,
+  "download_url": "",
+  "sha256": "",
+  "size": 0,
+  "release_notes": [
+    "Initial AIM LOGIC release"
+  ]
+}
