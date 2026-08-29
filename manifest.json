@@ -1,12 +1,14 @@
 {
-  "product": "AIM LOGIC",
-  "latest_version": "1.0.0",
+  "product": "PHANTOMSIGHT",
+  "latest_version": "1.0.1",
   "required": true,
   "grace_hours": 24,
-  "download_url": "",
-  "sha256": "",
-  "size": 0,
+  "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.1/PhantomSight_Update_1.0.1.zip",
+  "sha256": "2a7c4b811dfe9cbb6d4c9a2d6109e6c3557459851ccf29ea5726cf92b503c3e8",
+  "size": 800347,
   "release_notes": [
-    "Initial AIM LOGIC release"
-  ]
-}
+    "Automatic NVIDIA/TensorRT runtime compatibility repair, including Blackwell GPU PyTorch kernel support.",
+    "Automatic DirectML environment dependency repair.",
+    "Capture devices now display friendly names instead of numeric device indexes."
+  ],
+  "delete": []
