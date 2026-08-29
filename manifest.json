@@ -4,9 +4,10 @@
   "required": true,
   "grace_hours": 24,
   "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.1/PhantomSight_Update_1.0.1.zip",
-  "sha256": "NEW_HASH_FROM_BUILD",
+  "sha256": "2ae73a5750dc947dd7263eb153bc0ac488b6789042d7338fe009a5df62f71779",
   "size": 0,
   "release_notes": [
+    "Fixed the in-app update button so remote updates launch correctly.",
     "Automatic NVIDIA/TensorRT runtime compatibility repair, including Blackwell GPU PyTorch kernel support.",
     "Automatic DirectML environment dependency repair.",
     "Capture devices now display friendly names instead of numeric device indexes."
