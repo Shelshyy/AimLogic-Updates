@@ -1,16 +1,18 @@
 {
   "product": "PHANTOMSIGHT",
-  "latest_version": "1.0.1",
+  "latest_version": "1.0.2",
   "required": true,
   "grace_hours": 24,
-  "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.1/PhantomSight_Update_1.0.1.zip",
-  "sha256": "2ae73a5750dc947dd7263eb153bc0ac488b6789042d7338fe009a5df62f71779",
-  "size": 800989,
+  "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.2/PhantomSight_Update_1.0.2.zip",
+  "sha256": "62ad59c02d4f29fa6c06a13597ff12f1771635009b590e67c138c0cff4ab93f2",
+  "size": 0,
   "release_notes": [
-    "Fixed the in-app update button so remote updates launch correctly.",
-    "Automatic NVIDIA/TensorRT runtime compatibility repair, including Blackwell GPU PyTorch kernel support.",
-    "Automatic DirectML environment dependency repair.",
-    "Capture devices now display friendly names instead of numeric device indexes."
+    "Fixed cuDNN version mismatch crashes on NVIDIA systems.",
+    "Improved CUDA and TensorRT runtime verification and automatic repair.",
+    "Added real cuDNN compatibility testing before GPU startup.",
+    "Improved NVIDIA DLL and runtime isolation.",
+    "Added automatic compatibility fallback when GPU acceleration cannot initialize.",
+    "Includes previous v1.0.1 stability and runtime fixes."
   ],
   "delete": []
 }
