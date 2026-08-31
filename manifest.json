@@ -1,18 +1,19 @@
 {
   "product": "PHANTOMSIGHT",
-  "latest_version": "1.0.2",
+  "latest_version": "1.0.3",
   "required": true,
   "grace_hours": 24,
-  "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.2/PhantomSight_Update_1.0.2.zip",
-  "sha256": "62ad59c02d4f29fa6c06a13597ff12f1771635009b590e67c138c0cff4ab93f2",
+  "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.3/PhantomSight_Update_1.0.3.zip",
+  "sha256": "963f427709777a434c9cdd70839f5b822fbd6be0b39e26890697648d79bbb892",
   "size": 0,
   "release_notes": [
-    "Fixed cuDNN version mismatch crashes on NVIDIA systems.",
-    "Improved CUDA and TensorRT runtime verification and automatic repair.",
-    "Added real cuDNN compatibility testing before GPU startup.",
-    "Improved NVIDIA DLL and runtime isolation.",
-    "Added automatic compatibility fallback when GPU acceleration cannot initialize.",
-    "Includes previous v1.0.1 stability and runtime fixes."
+    "Added selectable Window Capture mode for capturing any open application window.",
+    "Added real window-name selection and refresh controls.",
+    "Window Capture continues receiving the selected window when other windows are covering it.",
+    "Improved Window Capture latency with detection-ROI-only processing.",
+    "Separated preview processing from the detection pipeline.",
+    "Improved stale-frame handling using time-based freshness.",
+    "Includes previous v1.0.2 stability and runtime fixes."
   ],
   "delete": []
 }
