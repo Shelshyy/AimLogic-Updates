@@ -1,19 +1,19 @@
 {
   "product": "PHANTOMSIGHT",
-  "latest_version": "1.0.3",
+  "latest_version": "1.0.4",
   "required": true,
   "grace_hours": 24,
-  "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.3/PhantomSight_Update_1.0.3.zip",
-  "sha256": "963f427709777a434c9cdd70839f5b822fbd6be0b39e26890697648d79bbb892",
+  "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.4/PhantomSight_Update_1.0.4.zip",
+  "sha256": "7c1fb6da157ad596c1dde469f7b21d08a4bb586683be982c9eecba603357d558",
   "size": 0,
   "release_notes": [
-    "Added selectable Window Capture mode for capturing any open application window.",
-    "Added real window-name selection and refresh controls.",
-    "Window Capture continues receiving the selected window when other windows are covering it.",
-    "Improved Window Capture latency with detection-ROI-only processing.",
-    "Separated preview processing from the detection pipeline.",
-    "Improved stale-frame handling using time-based freshness.",
-    "Includes previous v1.0.2 stability and runtime fixes."
+    "Fixed DirectML startup failures on Intel and AMD systems.",
+    "Added clean DirectML environment repair.",
+    "Removes conflicting ONNX Runtime installations before repair.",
+    "Added automatic CPU compatibility fallback if DirectML is unavailable.",
+    "Prevents PhantomSight from crashing when no compatible GPU backend is available.",
+    "Improved runtime detection and recovery.",
+    "Includes all previous v1.0.3 Window Capture and v1.0.2 stability fixes."
   ],
   "delete": []
 }
