@@ -3,8 +3,8 @@
   "latest_version": "1.0.5",
   "required": true,
   "grace_hours": 24,
-  "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.5/PhantomSight_Update_1.0.5.zip",
-  "sha256": "870aa1da0ac8acdc0bf22c73be5e8b38651755b99ee2dca85005675c3f162e4b",
+  "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.5/PhantomSight_Update_1.0.5_hotfix.zip",
+  "sha256": "375599cab6074155d17fa25911cbb8f6bf571eef3a97252bbca9c5f831719b99",
   "size": 0,
   "release_notes": [
     "Added RTX 50-series and Blackwell runtime compatibility improvements.",
@@ -15,6 +15,8 @@
     "Hipfire operates separately from the normal Aim Gate.",
     "Removed Step 1 and Step 2 from the in-app video guides.",
     "Setup tutorial links are now included in the VIDEO TUTORIAL READ ME file.",
+    "Fixed update handoff and relaunch loop.",
+    "Improved post-update version verification and restart behavior.",
     "Includes previous updater SSL, DirectML/CPU, Window Capture, and stability fixes."
   ],
   "delete": []
