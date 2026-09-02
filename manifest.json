@@ -1,19 +1,21 @@
 {
   "product": "PHANTOMSIGHT",
-  "latest_version": "1.0.4",
+  "latest_version": "1.0.5",
   "required": true,
   "grace_hours": 24,
-  "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.4/PhantomSight_Update_1.0.4.zip",
-  "sha256": "7c1fb6da157ad596c1dde469f7b21d08a4bb586683be982c9eecba603357d558",
+  "package_url": "https://github.com/Shelshyy/AimLogic-Updates/releases/download/v1.0.5/PhantomSight_Update_1.0.5.zip",
+  "sha256": "870aa1da0ac8acdc0bf22c73be5e8b38651755b99ee2dca85005675c3f162e4b",
   "size": 0,
   "release_notes": [
-    "Fixed DirectML startup failures on Intel and AMD systems.",
-    "Added clean DirectML environment repair.",
-    "Removes conflicting ONNX Runtime installations before repair.",
-    "Added automatic CPU compatibility fallback if DirectML is unavailable.",
-    "Prevents PhantomSight from crashing when no compatible GPU backend is available.",
-    "Improved runtime detection and recovery.",
-    "Includes all previous v1.0.3 Window Capture and v1.0.2 stability fixes."
+    "Added RTX 50-series and Blackwell runtime compatibility improvements.",
+    "Added cleaner CUDA, cuDNN, and TensorRT repair for newer NVIDIA GPUs.",
+    "Added real cuDNN compatibility testing before NVIDIA startup.",
+    "Added automatic DirectML and CPU fallback if the NVIDIA path is unavailable.",
+    "Added new Hipfire tracking mode with Never, R1, and R2 activation options.",
+    "Hipfire operates separately from the normal Aim Gate.",
+    "Removed Step 1 and Step 2 from the in-app video guides.",
+    "Setup tutorial links are now included in the VIDEO TUTORIAL READ ME file.",
+    "Includes previous updater SSL, DirectML/CPU, Window Capture, and stability fixes."
   ],
   "delete": []
 }
